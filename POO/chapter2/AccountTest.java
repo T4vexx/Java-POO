@@ -16,6 +16,6 @@ public class AccountTest {
 
         System.out.printf("\nOlá %s você tem R$%f de saldo",myAcc.getName(),myAcc.getBalance());
         System.out.printf("\nOlá %s você tem R$%f de saldo",myAcc2.getName(),myAcc2.getBalance());
+        input.close();
     }
-    
 }
