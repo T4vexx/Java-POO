@@ -3,7 +3,7 @@ import javax.swing.JFrame;
 public class DrawPainelTest {
     
     public static void main(String[] args) {
-        Test3 panel = new Test3();
+        Test2 panel = new Test2();
         JFrame app = new JFrame();
 
         app.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
