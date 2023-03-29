@@ -1,5 +1,5 @@
 package progExs.bancounesp;
 
-public class Banco {
+public class Agencia {
     
 }
