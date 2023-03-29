@@ -1,3 +1,5 @@
+package POO.chapter4.vendero;
+
 import java.util.Scanner;
 
 public class Ex219 {

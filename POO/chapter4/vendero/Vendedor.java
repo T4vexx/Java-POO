@@ -1,3 +1,5 @@
+package POO.chapter4.vendero;
+
 public class Vendedor {
     
     private String nome;
