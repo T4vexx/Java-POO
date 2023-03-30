@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class Conta {
 
     private String name;
-    private String cpf;
+    private long cpf;
     private double balance;
     private double overdraft=0;
     private int accountId;
     private String agency;
     private static int count = 0;
 
-    public Conta(String name, String cpf) {
+    public Conta(String name, long cpf) {
         this.name = name;
         this.cpf = cpf;
         balance = 0;
@@ -21,7 +21,7 @@ public class Conta {
         agency = "0001";
     }
 
-    public Conta(String name, String cpf, Double balance) {
+    public Conta(String name, long cpf, Double balance) {
         this.name = name;
         this.cpf = cpf;
         this.balance = balance;
@@ -38,11 +38,11 @@ public class Conta {
         this.name = name;
     }
 
-    public String getCpf() {
+    public long getCpf() {
         return cpf;
     }
 
-    public void setCpf(String cpf) {
+    public void setCpf(long cpf) {
         this.cpf = cpf;
     }
 
