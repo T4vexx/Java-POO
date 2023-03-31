@@ -13,9 +13,15 @@ public class DrawTarget extends JPanel {
         int width = getWidth();
 		int height = getHeight();
 
-        for(int i = 1; i<=5; i++) {
-            g.setColor(Color.YELLOW);
-            g.fillOval((width/2)+48*i, (height/2)+48*i, 240, 240);
+        for(int i=5; i>=1; i--) {
+            if(i%2==0) {
+                g.setColor(Color.YELLOW);
+            } else {
+                g.setColor(Color.BLACK);
+            }
+            
+            g.fillOval((width/2)-25*i, (height/2)-25*i, 250 - (50*(5-i)), 250-(50*(5-i)));
         }
+
     }
 }
